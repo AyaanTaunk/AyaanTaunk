@@ -1,0 +1,12 @@
+{
+  "name": "sukoon-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sukoon — clickable prototype for a curated Pranic/energy-healing marketplace (placeholder brand).",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": ["healing", "marketplace", "prototype"],
+  "license": "UNLICENSED"
+}
