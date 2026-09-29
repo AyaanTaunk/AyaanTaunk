@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sukoon — Healing Marketplace Prototype</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="demobar">
+    <div class="brand"><div class="logo">सु</div>
+      <div><h1>Sukoon <small>· prototype</small></h1><small>Curated healing marketplace — placeholder name</small></div></div>
+    <div class="toggle">
+      <button data-mode="seeker" class="active" onclick="setMode('seeker')">Seeker</button>
+      <button data-mode="healer" onclick="setMode('healer')">Healer</button>
+      <button data-mode="admin" onclick="setMode('admin')">Admin</button>
+      <button data-mode="b2b" onclick="setMode('b2b')">Corporate</button>
+    </div>
+  </div>
+  <div class="hint">Everything is clickable. Switch <b>Seeker / Healer / Admin / Corporate</b> above to see every side. Fake data, no backend.</div>
+
+  <div class="phone">
+    <div class="notch"></div>
+    <div class="screenwrap">
+      <div id="screen"></div>
+      <div class="tabbar" id="tabbar"></div>
+    </div>
+  </div>
+
+  <div class="note">Prototype only — illustrative screens & placeholder data, no real accounts, payments or video. "Sukoon" is a placeholder name. Framed as complementary wellbeing, not medical advice.</div>
+
+  <script src="js/data.js"></script>
+  <script src="js/screens.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
